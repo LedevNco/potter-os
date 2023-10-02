@@ -1,0 +1,1 @@
+<h1>MagicMirror</h1>
