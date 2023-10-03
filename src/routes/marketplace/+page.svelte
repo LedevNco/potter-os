@@ -11,7 +11,7 @@
     let extensions = [];
     let search_terms = "";
     let s_index = 0;
-    let chips = [{name: "Tous", selected: true}, {name: "Installées", selected: false}, {name: "Non installées", selected: false}];
+    let chips = [{name: "Toutes", selected: true}, {name: "Installées", selected: false}, {name: "Non installées", selected: false}];
     let filtered_extensions = generatePromise();
 
 
@@ -54,14 +54,7 @@
             version: "1627776000000",
             author: "PotterOs",
             installed: false,
-        }, {
-            icon: "https://icones.pro/wp-content/uploads/2021/07/cloud-day-forecast-rain-rainy-icon-2048x2048.png",
-            name: "Reather",
-            version: "1627776000000",
-            author: "Nco",
-            installed: true,
-        }
-        ]
+        }]
 
         return Promise.resolve(extensions);
     }
