@@ -1,8 +1,0 @@
-{
-  "name": "Weather",
-  "displayName": "Extension météo",
-  "version": "1692464904000",
-  "author": "PotterOs",
-  "scope": ["loc", "name", "email", "birthdate", "calendar"],
-  "icon": "https://icones.pro/wp-content/uploads/2021/07/cloud-day-forecast-rain-rainy-icon-2048x2048.png"
-}
